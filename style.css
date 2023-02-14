@@ -16,16 +16,13 @@ main .jumbo .my-separator .line-separator-left {
     display: flex;
     align-items: center;
     justify-content: end;
-    width: 100%;
-    
+    width: 100%; 
 }
 
 main .jumbo .my-separator .line-separator-right {
     display: flex;
     align-items: center;
-   
     width: 100%;
-    
 }
 
 main .jumbo .my-separator .line-separator-left .line-inner {
@@ -55,7 +52,6 @@ main .portfolio .my-separator .line-separator-left {
     align-items: center;
     justify-content: end;
     width: 100%;
-    
 }
 
 main .portfolio .my-separator .line-separator-right {
@@ -128,7 +124,6 @@ main .contact .my-separator .line-separator-left {
     align-items: center;
     justify-content: end;
     width: 100%;
-    
 }
 
 main .contact .my-separator .line-separator-right {
@@ -147,6 +142,30 @@ main .contact .my-separator .line-separator-right .line-inner {
     height: 2px;
     width: 30%;
     background-color: white;
+}
+
+
+
+main .form .btn-form {
+    background-color: #1abc9c;
+}
+
+.form-control::placeholder {
+    color: #314254;
+}
+
+
+
+footer .footer-top {
+    background-color: #3a546d;
+}
+
+footer .footer-top span {
+    color: #1bba9b;
+}
+
+footer .footer-bottom {
+    background-color: #2c3e50;
 }
 
 
@@ -179,5 +198,11 @@ main .contact .my-separator .line-separator-right .line-inner {
 
     main .about .text-about .col-text-about {
         width: 100%;
+    }
+
+    footer .footer-top .col-footer-top {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
     }
   }
