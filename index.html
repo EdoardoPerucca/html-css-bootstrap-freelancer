@@ -8,40 +8,263 @@
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <link rel="stylesheet" href="style.css">
 
 </head>
 <body>
 
-    <nav>
+    <nav class="py-3">
 
-        <div class="container d-flex align-items-center">
-            <div class="row">
-                <div class="col list-nav">
-                Column
-                </div>
+        <div class="container d-flex justify-content-between text-white text-uppercase">
             
-                <div class="col d-flex justify-content-end">
-                    <div class="row align-items-center">
-                        <div class="col list-nav">
-                            Column
-                        </div>
-
-                        <div class="col list-nav">
-                            Column
-                        </div>
-
-                        <div class="col list-nav">
-                            Column
-                        </div>
-
-                    </div>
-                    
-                </div>
+            <div class="nav-left fw-bold">           
+                Start Bootstrap
             </div>
+            
+            <div class="nav-right">
+
+                <div class="links-nav-right">
+                    <ul class="d-flex list-unstyled gap-3">
+                        <li>Portfolio</li>
+                        <li>About</li>
+                        <li>Contact</li>
+                    </ul>
+
+                </div>
+
+                <div class="menu-nav-right">
+
+                    <i class="fa-solid fa-bars"></i>
+                </div>             
+                                
+            </div>
+            
         </div>
 
     </nav>
+
+
+    <main>
+
+        <section class="jumbo">
+            
+            <div class="container d-flex flex-column align-items-center py-5 text-white">
+                
+                
+                <img class="img-jumbo w-25" src="img/avatar.svg" alt="Avatar">
+                
+            
+                <h1>Start Bootstrap</h1>
+            
+                <div class="my-separator d-flex gap-3">
+                    
+                    <div class="line-separator-left">
+                        <div class="line-inner">
+
+                        </div>                   
+                    </div> 
+     
+                    <div class="icon-star">
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+
+                    <div class="line-separator-right">
+                        <div class="line-inner">
+
+                        </div>
+                    </div>
+
+                </div>
+            
+                <div class="fw-bold">
+                    Graphic Artist - Web Designer - Illustrator
+                </div>
+                
+                
+            </div>
+
+        </section>
+
+
+
+
+        <section class="portfolio container">
+            
+            <div class="container d-flex flex-column align-items-center py-5 text-dark">
+   
+                <h2>Portfolio</h2>
+            
+                <div class="my-separator d-flex gap-3">
+                    
+                    <div class="line-separator-left">
+                        <div class="line-inner bg-dark">
+
+                        </div>                   
+                    </div> 
+     
+                    <div class="icon-star">
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+
+                    <div class="line-separator-right">
+                        <div class="line-inner bg-dark">
+
+                        </div>
+                    </div>
+
+                </div>   
+                
+            </div>
+
+            
+            
+            <div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 g-3 mb-4">
+                <div class="col">
+                    <div class="my-col-inner rounded-3 overflow-hidden">
+                        <img src="img/cabin.png" class="img-fluid" alt="House">
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="my-col-inner rounded-3 overflow-hidden">
+                        <img src="img/cake.png" class="img-fluid" alt="House">
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="my-col-inner rounded-3 overflow-hidden">
+                        <img src="img/circus.png" class="img-fluid" alt="Circus">
+                    </div>
+                </div>
+                <div class="col">
+                  <div class="my-col-inner rounded-3 overflow-hidden">
+                    <img src="img/game.png" class="img-fluid" alt="game">
+                  </div>
+                </div>
+                <div class="col">
+                    <div class="my-col-inner rounded-3 overflow-hidden">
+                        <img src="img/safe.png" class="img-fluid" alt="Safe">
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="my-col-inner rounded-3 overflow-hidden">
+                        <img src="img/submarine.png" class="img-fluid" alt="Submarine">
+                    </div>
+                </div>
+            </div>
+                
+        </section>
+    
+    
+
+        <section class="about py-5 text-white">
+
+            <div class="container">
+                <h2 class="text-center">
+                    About
+                </h2>
+            
+                <div class="my-separator d-flex gap-3">
+                
+                <div class="line-separator-left">
+                    <div class="line-inner">
+
+                    </div>                   
+                </div> 
+    
+                <div class="icon-star">
+                    <i class="fa-solid fa-star"></i>
+                </div>
+
+                <div class="line-separator-right">
+                    <div class="line-inner">
+
+                    </div>
+                </div>
+
+            </div>
+        
+            <div class="px-5">
+        
+                <div class="row text-about py-3">
+                    <div class="col-6 col-text-about">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus illum recusandae similique, amet quidem, omnis accusantium, expedita corporis impedit voluptates iste neque harum molestiae deserunt ullam perferendis blanditiis repellat quae?
+                    </div>
+                    <div class="col-6 col-text-about">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus illum recusandae similique, amet quidem, omnis accusantium, expedita corporis impedit voluptates iste neque harum molestiae deserunt ullam perferendis blanditiis repellat quae?
+                    </div>
+                </div>
+   
+                <div class="text-center">
+                    <button type="button" class="btn btn-outline-light"><i class="fa-solid fa-download"></i> Download</button>
+                </div>
+
+            </div>
+
+        </section>
+    
+        
+          <div class="contact container py-5">
+            <div class="text-center">
+              <h2 class="text-uppercase">
+                Contact me
+              </h2>
+
+              <div class="my-separator d-flex gap-3">
+                    
+                <div class="line-separator-left">
+                    <div class="line-inner bg-dark">
+
+                    </div>                   
+                </div> 
+ 
+                <div class="icon-star">
+                    <i class="fa-solid fa-star"></i>
+                </div>
+
+                <div class="line-separator-right">
+                    <div class="line-inner bg-dark">
+
+                    </div>
+                </div>
+
+            </div>   
+        
+          
+              <div class="my-separator text-center">
+                <i class="bi bi-star-fill"></i>
+              </div>
+            </div>
+        
+            <div class="px-5">
+              <form class="px-2">
+                <div class="mb-3">
+                  <input type="text" placeholder="Name" class="form-control border-0 border-bottom rounded-0">
+                </div>
+                <div class="mb-3">
+                  <input type="email" placeholder="Email" class="form-control border-0 border-bottom rounded-0">
+                </div>
+        
+                <div class="mb-3">
+                  <input type="tel" placeholder="Phone Number" class="form-control border-0 border-bottom rounded-0">
+                </div>
+        
+                <div class="mb-3">
+                  <input type="email" placeholder="Email" class="form-control border-0 border-bottom rounded-0">
+                </div>
+        
+                <div class="form-floating mb-3">
+                  <textarea rows="5" class="form-control border-0 border-bottom rounded-0" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 150px"></textarea>
+                  <label for="floatingTextarea2">Message</label>
+                </div>
+        
+                <button type="submit" class="btn btn-primary">Send</button>
+              </form>
+              
+            </div>
+          </div>
+
+    </main>
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
